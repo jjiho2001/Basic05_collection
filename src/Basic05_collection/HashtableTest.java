@@ -47,6 +47,7 @@ public class HashtableTest {
 			System.out.println(it2.next().toString());
 		}
 	}
+	
 	public static void main(String[] args) {
 		
 		new HashtableTest().start();

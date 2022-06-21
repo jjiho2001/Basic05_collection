@@ -22,8 +22,7 @@ public class MemberVO {  // MemberDTO
 	
 	@Override
 	public String toString() {
-		return "num=" + num + ", username=" + username + 
-				", department=" + department + ", tel=" + tel ;
+		return num + "\t" + username + "\t" + department + "\t" + tel ;
 	}
 	//Getter
 	public int getNum() {
